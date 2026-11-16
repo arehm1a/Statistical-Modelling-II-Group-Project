@@ -1,0 +1,31 @@
+<!-- Q1 SECTION (child of group_report.Rmd). Owners: Mahin + teammate. Target length: ~1.1 pages.
+     Numbers come from the Q1 scripts' saved outputs, never typed in by hand. -->
+
+```{r q1-setup, include = FALSE}
+source("code/q1/q1_00_model_spec.R")
+or_tab  <- read.csv("outputs/q1/odds_ratios.csv")
+sel_tab <- read.csv("outputs/q1/model_selection.csv")
+```
+
+# Analysis 1: Player characteristics and injury risk
+
+## Data
+<!-- (B) 3-4 sentences + Table/Figure: 620 players, 18.5% injured; injury by age band x load (q1_01). -->
+
+## Model and justification
+<!-- (A) Binary response -> binomial GLM, logit link (odds ratios). Selection by LRT, AIC/BIC (q1_02). -->
+
+```{r q1-selection-table}
+knitr::kable(sel_tab[, c("model", "df", "deviance", "AIC")],
+             caption = "Model selection for injury risk.")
+```
+
+## Results
+<!-- (A) Interpretation with CIs from or_tab; Figure: predicted risk by age and load (q1_05). -->
+
+```{r q1-or-table}
+knitr::kable(or_tab, caption = "Odds ratios (95% CI) from the final model.")
+```
+
+## Model fit and diagnostics
+<!-- (B) HL, calibration, influence, club random effect, GK sensitivity (q1_03, q1_04). -->

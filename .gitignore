@@ -1,0 +1,21 @@
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+.httr-oauth
+
+# Knitting leftovers
+*.log
+*.aux
+*.tex
+reports/*_files/
+reports/*_cache/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Individual-report work must NOT go in the shared repo (must be done independently)
+individual/
+ashford_matches_individual.csv

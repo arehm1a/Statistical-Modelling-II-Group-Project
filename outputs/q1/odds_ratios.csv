@@ -1,0 +1,9 @@
+"effect","OR","lower","upper"
+"+1 training load level, age 20",0.71,0.47,1.07
+"+1 training load level, age 25",1.24,0.99,1.56
+"+1 training load level, age 30",2.17,1.54,3.05
+"+1 training load level, age 34",3.38,1.96,5.84
+"+5 years of age, load 1",0.47,0.23,0.98
+"+5 years of age, load 3",1.45,1.06,1.96
+"+5 years of age, load 5",4.4,2.37,8.18
+"+1 previous injury",1.69,1.41,2.03

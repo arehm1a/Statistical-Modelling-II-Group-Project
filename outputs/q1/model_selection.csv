@@ -1,0 +1,5 @@
+"model","formula","df","deviance","AIC"
+"Full main effects","injured ~ age_c + load_c + prev_injuries + position + bmi + mins1000",611,536.22,554.2
+"Age + load + previous injuries","injured ~ age_c + load_c + prev_injuries",616,539.27,547.3
+"+ age x load (final)","injured ~ age_c * load_c + prev_injuries",615,525.3,535.3
+"+ GK x age (sensitivity)","injured ~ age_c * load_c + prev_injuries + gk * age_c",613,516.55,530.5

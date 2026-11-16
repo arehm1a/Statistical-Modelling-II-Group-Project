@@ -1,0 +1,14 @@
+{
+  // R in VS Code (REditorSupport "R" extension)
+  "r.bracketedPaste": true,
+  "r.plot.useHttpgd": false,
+  "r.sessionWatcher": true,
+  "r.alwaysUseActiveTerminal": false,
+  // Start R in the project root so relative paths (data/..., code/...) work
+  "terminal.integrated.cwd": "${workspaceFolder}",
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "editor.rulers": [90],
+  "[r]": { "editor.tabSize": 2 },
+  "[rmd]": { "editor.tabSize": 2 }
+}

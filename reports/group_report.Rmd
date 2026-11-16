@@ -1,0 +1,63 @@
+---
+title: "Midland Premier League 2023/24: Statistical Analysis for Ashford United FC"
+subtitle: "MTH6134 Group Project - Meridian Analytics (PCGroup1, SubGroup F)"
+output:
+  pdf_document:
+    number_sections: true
+    fig_caption: true
+fontsize: 11pt
+geometry: margin=2cm
+---
+
+```{r setup, include = FALSE}
+# Knit from the project root so relative paths work:
+#   rmarkdown::render("reports/group_report.Rmd", knit_root_dir = getwd())
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE,
+                      fig.align = "center", fig.height = 3)
+source("code/00_setup.R")
+```
+
+<!-- LIMITS: max 4 pages of narrative (exec summary to conclusions); code only in the appendix;
+     numbered tables/figures with captions; "we"; "is associated with", never "causes". -->
+
+# Executive summary
+
+<!-- Max half a page. The three main findings, in plain language, with key numbers + CIs. -->
+
+```{r child = 'reports/sections/q1.Rmd'}
+```
+
+# Analysis 2: Training load and club differences
+
+<!-- Q2 (wording to confirm): Which player characteristics are associated with training load, and do clubs differ in the training loads they set once position and playing time are taken into account?
+     Owners: TBC. Suggested structure: create reports/sections/q2.Rmd and include it like Q1. -->
+
+## Data
+## Model and justification
+## Results
+## Model fit and diagnostics
+
+# Analysis 3: Venue, opponent strength and goals
+
+<!-- Q3: How are venue and opponent strength associated with Ashford's goals scored and conceded, and how large is the home advantage when each opponent is used as its own control?
+     Owners: TBC. Suggested structure: create reports/sections/q3.Rmd and include it like Q1. -->
+
+## Data
+## Model and justification
+## Results
+## Model fit and diagnostics
+
+# Conclusions and limitations
+
+\newpage
+
+# Appendix: R code {-}
+
+Shared workspace: <https://github.com/arehm1a/Statistical-Modelling-II-Group-Project>
+
+```{r appendix-files, echo = FALSE, results = "asis"}
+# Print every script used, so the appendix reproduces all results
+for (f in c("code/00_setup.R", sort(list.files("code/q1", full.names = TRUE)))) {
+  cat("\n\n**", f, "**\n\n```r\n", paste(readLines(f), collapse = "\n"), "\n```\n", sep = "")
+}
+```
