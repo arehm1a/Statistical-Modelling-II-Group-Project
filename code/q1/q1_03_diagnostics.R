@@ -1,5 +1,5 @@
 # =============================================================================
-# q1_03_diagnostics.R - Q1 goodness of fit and diagnostics    OWNER: Teammate (B)
+# q1_03_diagnostics.R - Q1 goodness of fit and diagnostics    OWNER: Ian (B)
 # Goal: show the final model fits adequately and no player drives the results.
 # Note: for UNGROUPED binary data the residual deviance is NOT chi-squared,
 #       so use grouped checks (Hosmer-Lemeshow, calibration) instead.

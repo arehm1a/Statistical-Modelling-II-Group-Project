@@ -1,5 +1,5 @@
 # =============================================================================
-# q1_01_eda.R - Q1 exploratory analysis                     OWNER: Teammate (B)
+# q1_01_eda.R - Q1 exploratory analysis                     OWNER: Ian (B)
 # Goal: show the reader WHY the model looks the way it does, before any model.
 # Output: 1 figure + 1 small table for the report (more can stay in outputs/q1).
 # =============================================================================

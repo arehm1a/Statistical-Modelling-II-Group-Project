@@ -7,7 +7,7 @@ Newest entries at the bottom. Mark open items as *Proposed* until the group agre
 
 | | Question | Response / main model | Owners | Status |
 |---|---|---|---|---|
-| Q1 | Which player characteristics are associated with injury risk, and do these associations vary with age? | Injured (binary): binomial GLM with age x load interaction; GK x age sensitivity; club random effect check | Mahin + [teammate] | Agreed, in progress (`code/q1/`, `notes/q1-plan.md`) |
+| Q1 | Which player characteristics are associated with injury risk, and do these associations vary with age? | Injured (binary): binomial GLM with age x load interaction; GK x age sensitivity; club random effect check | Mahin + Ian | Agreed, in progress (`code/q1/`, `notes/q1-plan.md`) |
 | Q2 | Which player characteristics are associated with training load, and do clubs differ in the training loads they set once position and playing time are taken into account? | Training load (ordinal): position x load contingency table, proportional odds model, club random effect | TBC | Wording to confirm |
 | Q3 | How are venue and opponent strength associated with Ashford's goals scored and conceded, and how large is the home advantage when each opponent is used as its own control? | Goals for/against (counts): joint Poisson log-linear model; matched-pairs (opponent as own control) analysis | TBC | Agreed |
 

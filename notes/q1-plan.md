@@ -1,7 +1,7 @@
 # Q1 plan: player characteristics and injury risk
 
 **Question:** Which player characteristics are associated with injury risk, and do these associations vary with age?
-**Team:** Mahin (A) + [teammate name] (B)
+**Team:** Mahin (A) + Ian (B)
 **Output:** about 1.1 pages of the group report (`reports/sections/q1.Rmd`), plus all code in `code/q1/`.
 
 ---

@@ -1,5 +1,5 @@
 # =============================================================================
-# q1_04_robustness.R - Q1 sensitivity analyses              OWNER: Teammate (B)
+# q1_04_robustness.R - Q1 sensitivity analyses              OWNER: Ian (B)
 # Goal: show the headline is not an artefact. Each check = one sentence in report.
 # =============================================================================
 source("code/q1/q1_00_model_spec.R")
